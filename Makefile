@@ -4,11 +4,11 @@ SOURCES  := src
 DATA     := data
 INCLUDES := include
 
-LIBS = -lSDL2_image -lSDL2_mixer -lSDL2 -lvorbisfile -logg -lvorbis -lmodplug \
-	-lvita2d -lkbdvita -lSceCommonDialog_stub -lSceAudio_stub -lSceKernel_stub \
-	-lSceNet_stub -lSceNetCtl_stub -lpng -lz -lSceDisplay_stub -lSceGxm_stub \
-	-lSceSysmodule_stub -lSceCtrl_stub -lSceTouch_stub -lm -lc \
-	-lSceAppUtil_stub -lScePgf_stub -ljpeg -lSceRtc_stub -lScePower_stub
+LIBS = -lSDL2_image -lSDL2_mixer -lSDL2 -lvorbisfile -lvorbis -logg \
+	-lvita2d -lkbdvita -lz -lSceAppMgr_stub -lSceAppUtil_stub \
+	-lSceAudio_stub -lSceCommonDialog_stub -lSceCtrl_stub \
+	-lSceDisplay_stub -lSceGxm_stub -lSceNetCtl_stub -lScePower_stub \
+	-lSceSysmodule_stub
 
 COMMON_OBJS = src/data.o \
 	src/main.o \
