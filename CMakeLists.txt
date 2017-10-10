@@ -54,15 +54,12 @@ target_link_libraries(${VITA_APPNAME}
   kbdvita
   z
   m
-  SceAppMgr_stub
   SceAppUtil_stub
   SceAudio_stub
   SceCommonDialog_stub
   SceCtrl_stub
   SceDisplay_stub
   SceGxm_stub
-  SceNetCtl_stub
-  ScePower_stub
   SceSysmodule_stub
   SceTouch_stub
 )
